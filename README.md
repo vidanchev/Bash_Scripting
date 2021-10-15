@@ -26,3 +26,5 @@ In this way the content of the file is directly loaded and interpreted as a scri
 
 - Navigating to the previous location you were with ``cd -``
 - Any command output can be recorded in a file through ``>``, for example ``echo "Hello World" > text.txt`` will create text.txt file with "Hello World"
+- Assigning variables happens as usual but you cannot use spaces ``a = 8`` is not valid but ``a=8`` is 
+- Calling variables is done with "$" -> ``echo $a`` will display a's value
